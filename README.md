@@ -1,5 +1,7 @@
 # Ultimate Tic-Tac-Toe
 
+# Ultimate Tic-Tac-Toe
+
 Creating a Tic-Tac-Toe game with a template to setup React in Vite.
 
 Currently, two official plugins are available:
