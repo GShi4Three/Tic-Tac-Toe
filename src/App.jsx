@@ -2,9 +2,7 @@ import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
   return (
-    <button className="square" onClick={onSquareClick}>
-      {value}
-    </button>
+    <button className="square" onClick={onSquareClick}>{value}</button>
   );
 }
 
@@ -77,7 +75,9 @@ export default function Game() {
     }
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{description}</button>
+          {move === currentMove ? 
+          <>You are at move #{move}</> : 
+          <button onClick={() => jumpTo(move)}>{description}</button>}
       </li>
     );
   });
