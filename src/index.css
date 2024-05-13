@@ -43,7 +43,7 @@ code {
 }
 
 ul {
-  padding-inline-start: 20px;
+  padding-left: 20px;
 }
 
 * {
@@ -51,12 +51,14 @@ ul {
 }
 
 body {
+  
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
 }
 
 .square {
+  
   background: #fff;
   border: 1px solid #999;
   float: left;
@@ -87,4 +89,14 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winning-square {
+    background-color: #FFFF00;
 }
